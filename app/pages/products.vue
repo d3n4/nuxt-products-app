@@ -109,23 +109,22 @@ const confirmClear = () => {
   </div>
 </template>
 
+
 <style scoped>
-/* Анімація списку */
 .list-move,
 .list-enter-active,
 .list-leave-active {
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-enter-from,
 .list-leave-to {
-  opacity: 0;
-  transform: translateY(20px);
+opacity: 0;
+transform: translateY(20px);
 }
 
 .list-leave-active {
-  position: absolute; /* для плавного зміщення інших елементів */
-  width: 100%;
+  position: absolute;                   
+width: 100%;
 }
 </style>
-
